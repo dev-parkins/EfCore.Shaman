@@ -1,3 +1,7 @@
+## Intent
+
+This is a personal project is a fork of the original efcoreshaman repository to resolve issues found in .Net Core 2.0.
+
 ## Core.Shaman
 
 There is still a lot of flaws in EntityFrameworkCore. Many of them is really irritating. That's why first name of this library was EfCore.Irritation :).

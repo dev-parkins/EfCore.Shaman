@@ -47,7 +47,7 @@ namespace EfCore.Shaman.ModelScanner
             {
                 return new EfModelEntityWrapper
                 {
-                    ClrType = entityType.ClrType,
+                    ClrType = entityType.GetType(),
                     TableName = entityType.Relational().TableName
                 };
             }

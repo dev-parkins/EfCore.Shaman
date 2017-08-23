@@ -13,16 +13,15 @@
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\EfCore.Shaman.xml</DocumentationFile>
-    <RepositoryUrl>https://github.com/isukces/EfCore.Shaman</RepositoryUrl>
+    <RepositoryUrl>https://github.com/dev-parkins/EfCore.Shaman</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageId>EfCore.Shaman</PackageId>
+    <PackageId>DevParkins.EfCore.Shaman</PackageId>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard1.6' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <PackageTags>EntityFrameworkCore</PackageTags>
     <PackageReleaseNotes>Multi-target netstandard1.6+net451</PackageReleaseNotes>
     <PackageProjectUrl>http://efcoreshaman.com/</PackageProjectUrl>
-    <Description>Fixes for EntityFrameworkCore</Description>
-    <Company>Internet Sukces Piotr Stęclik</Company>
-    <Copyright>Copyright by Internet Sukces Piotr Stęclik 2016-2017</Copyright>
+    <Company></Company>
+    <Copyright></Copyright>
     <GenerateAssemblyTitleAttribute>true</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>true</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyConfigurationAttribute>true</GenerateAssemblyConfigurationAttribute>
@@ -32,7 +31,8 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Description>Fixes for EntityFrameworkCore</Description>
+    <Description>Personal Project for fixes to EfCore.Shaman</Description>
+    <Authors>DevParkins.EfCore.Shaman</Authors>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
